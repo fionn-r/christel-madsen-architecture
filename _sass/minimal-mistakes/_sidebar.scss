@@ -33,7 +33,7 @@
       /* calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      min-height: calc(100vh - #{$nav-height} - 30em);
     }
   }
 
@@ -362,4 +362,18 @@
   position: absolute;
   bottom: 0;
   margin-bottom: 10px;
+}
+
+.sidebar_fionn {
+  position: sticky;
+  top: 0;
+  /* Set the height of your sidebar to 100% of viewport height */
+  height: calc(100vh - #{$nav-height} - 5em);
+}
+
+.sidebar_content_fionn {
+  position: absolute;
+  bottom: 0;
+  /* Set the width of your info div */
+  // width: 100%;
 }

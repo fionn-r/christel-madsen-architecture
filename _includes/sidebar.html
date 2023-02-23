@@ -1,21 +1,8 @@
-{% if page.author_profile or layout.author_profile or page.sidebar %}
-<div></div>
-<div class="sidebar sticky sidebar__content">
-
-  <table id="container" style="height:100%">
-    <tr>
-      <td valign="top">
-        <br>
-      </td>
-    </tr>
-    <tr>
-      <td valign="bottom">
+<div class="sidebar sidebar_fionn">
+  <div class="sidebar_content_fionn">
         {% if page.author_profile or layout.author_profile %}{% include author-profile.html %}{% endif %}
         {% if page.sidebar %}
         {% for s in page.sidebar %}
-        {% if s.image %}
-        <img src="{{ s.image | relative_url }}" alt="{% if s.image_alt %}{{ s.image_alt }}{% endif %}">
-        {% endif %}
         {% if s.title %}<h3>{{ s.title }}</h3>{% endif %}
         {% if s.text %}{{ s.text | markdownify }}{% endif %}
         {% if s.nav %}{% include nav_list nav=s.nav %}{% endif %}
@@ -24,8 +11,5 @@
         {% include nav_list nav=page.sidebar.nav %}
         {% endif %}
         {% endif %}
-      </td>
-    </tr>
-  </table>
+      </div>
 </div>
-{% endif %}
