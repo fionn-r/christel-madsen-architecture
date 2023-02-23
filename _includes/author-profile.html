@@ -24,6 +24,8 @@
 
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
+    <h2>CONTACT</h2>
+    <br>
     <ul class="author__urls social-icons">
       {% if author.location %}
         <li itemprop="homeLocation" itemscope itemtype="https://schema.org/Place">
@@ -51,11 +53,19 @@
         <li>
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
             <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+            <span class="label">{{ author.email }}</span>
           </a>
         </li>
       {% endif %}
-
+      
+      {% if author.phone %}
+        <li>
+          <a href="{{ author.phone.url }}"rel="me">
+            <span class="label">{{ author.phone.label }}</span>
+          </a>
+        </li>
+      {% endif %}
+      
       {% if author.keybase %}
         <li>
           <a href="https://keybase.io/{{ author.keybase }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
@@ -82,8 +92,8 @@
 
       {% if author.linkedin %}
         <li>
-          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" rel="nofollow noopener noreferrer me">
+            <span class="label">LinkedIn</span>
           </a>
         </li>
       {% endif %}

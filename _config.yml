@@ -51,15 +51,11 @@ social:
 
 # Site Author
 author:
-  name             : "Christel Madsen"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Architect"
-  location         : "Copenhagen, Denmark"
   email            : "christelmadsen@gmail.com"
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+  linkedin: christel-astrup-madsen-b29a14a2
+  phone            :
+    label: +45 50 33 67 45
+    url: tel:+4550336745
 
 # Site Footer
 footer:
@@ -135,8 +131,8 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 atom_feed:
@@ -194,8 +190,7 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
+    
 # Defaults
 defaults:
   # _posts
@@ -204,9 +199,10 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: false
+      author_profile: true
       read_time: false
       comments: false
-      share: true
+      share: false
       related: false
       show_date: false
+      excerpt_separator: <!--more-->

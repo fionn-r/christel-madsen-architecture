@@ -9,18 +9,18 @@
   @include breakpoint($large) {
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    // padding-right: $right-sidebar-width-narrow;
   }
 
   @include breakpoint($x-large) {
     width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    // padding-right: $right-sidebar-width;
   }
 }
 
 .archive__item {
   position: relative;
-
+  vertical-align: top;
   a {
     position: relative;
     z-index: 10;
@@ -45,7 +45,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: $sans-serif-narrow;
+  font-family: $global-font-family;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -62,6 +62,7 @@
   a + a {
     opacity: 0.5;
   }
+  margin-top: 0;
 }
 
 /* remove border*/
