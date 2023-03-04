@@ -591,3 +591,13 @@ a.reversefootnote {
     position: static;
   }
 }
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 710px) {
+  .mobile-only {
+    display: block;
+  }
+}
