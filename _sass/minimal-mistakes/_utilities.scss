@@ -596,7 +596,7 @@ a.reversefootnote {
   display: none;
 }
 
-@media (max-width: 710px) {
+@media (max-width: $large) {
   .mobile-only {
     display: block;
   }

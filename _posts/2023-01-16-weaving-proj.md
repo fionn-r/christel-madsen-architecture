@@ -31,4 +31,4 @@ The resulting panels were woven by hand using locally sourced straw. The panels 
 
 The use of straw as a cladding material has several benefits. Firstly, it is a renewable resource that is widely available, making it an environmentally friendly choice. Secondly, the panels provide excellent insulation, reducing the need for energy-intensive heating and cooling systems. Thirdly, the panels are lightweight and easy to install, reducing the construction time and cost.
 
-The project that involved weaving straw to make environmentally friendly cladding for buildings is an excellent example of sustainable and eco-friendly architecture. By using a renewable and locally sourced material, the project achieved a low-carbon footprint and provided excellent insulation and protection for buildings. 
+The project that involved weaving straw to make environmentally friendly cladding for buildings is an excellent example of sustainable and eco-friendly architecture. By using a renewable and locally sourced material, the project achieved a low-carbon footprint and provided excellent insulation and protection for buildings.
