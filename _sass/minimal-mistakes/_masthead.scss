@@ -52,13 +52,14 @@
   align-self: center;
   font-weight: bold;
   font-size: $h-size-2;
-  font-weight:500;
+  font-weight: 700;
   // z-index: 20;
 }
 
 .site-subtitle {
   display: block;
   font-size: $type-size-8;
+  font-weight: 500;
 }
 
 .masthead__menu {
@@ -93,12 +94,12 @@
     padding-right: 2em;
     font-weight: 700;
   }
-  
-  
+
+
 }
 
 .masthead__menu-item a {
   text-decoration: none;
   font-size: $h-size-2;
-  font-weight:500;
+  font-weight: 700;
 }
