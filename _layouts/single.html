@@ -6,7 +6,7 @@ layout: default
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     <div class="page-item" id="image_carousel" style="height: 100%; flex: 1.75 1 auto;"> {% include carousel.html
-      height="100" unit="%" %}
+      height="75" unit="%" %}
     </div>
     <div class="page-item">
       <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
@@ -39,7 +39,5 @@ layout: default
     {% include comments.html %}
     {% endif %}
   </article>
-  <div>
     {% include author-profile.html %}
-  </div>
 </div>
