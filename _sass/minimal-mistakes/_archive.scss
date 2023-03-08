@@ -49,6 +49,9 @@
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: normal;
 
   a[rel="permalink"]::before {
     content: '';

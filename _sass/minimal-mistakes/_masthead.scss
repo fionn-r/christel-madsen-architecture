@@ -52,6 +52,7 @@
   align-self: center;
   font-weight: bold;
   font-size: $h-size-2;
+  font-weight:500;
   // z-index: 20;
 }
 
@@ -98,4 +99,6 @@
 
 .masthead__menu-item a {
   text-decoration: none;
+  font-size: $h-size-2;
+  font-weight:500;
 }

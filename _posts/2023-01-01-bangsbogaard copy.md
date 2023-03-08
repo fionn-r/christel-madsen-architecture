@@ -1,5 +1,5 @@
 ---
-title:  2022 &#124; To do
+title:  2O22 &#124; To do
 permalink: /todo/
 header_image: assets/images/Bangsbogaard_header.png
 classes: wide

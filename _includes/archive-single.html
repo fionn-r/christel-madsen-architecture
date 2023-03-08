@@ -15,19 +15,13 @@
     <tr>
       <td style="width: 50%;vertical-align: top;">
         <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-          {% if include.type == "grid" and teaser %}
-          <div class="archive__item-teaser">
-            <img src="{{ teaser | relative_url }}" alt="">
+          <div  style="width: fit-content;">
+            <h2 class="archive__item-title no_toc" itemprop="headline">
+              <a href="{{ post.url | relative_url }}" rel="permalink" style="text-decoration: none;">{{ title }}</a>
+            </h2>
+            <hr
+              style="border-color: blue ;color:blue;background-color:blue; height: 2.5px;padding: 0px; margin: 5px 0px; ">
           </div>
-          {% endif %}
-          <h2 class="archive__item-title no_toc" itemprop="headline">
-            {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ post.url | relative_url }}" rel="permalink"><i
-                class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-            {% else %}
-            <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
-            {% endif %}
-          </h2>
           {% include page__meta.html type=include.type %}
           {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |
             strip_html | truncate: 160 }}</p>{% endif %}
@@ -36,7 +30,7 @@
       <td style="width: 50%;">
         <div class="split__entry split__entry__right">
           <a href="{{ post.url | relative_url }}" rel="permalink">
-          <img src="{{ post.header_image }}" alt="{{ post.title }}" class="entry__image">
+            <img src="{{ post.header_image }}" alt="{{ post.title }}" class="entry__image">
           </a>
         </div>
       </td>

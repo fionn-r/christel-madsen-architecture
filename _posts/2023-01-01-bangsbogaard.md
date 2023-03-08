@@ -1,5 +1,5 @@
 ---
-title:  2022 &#124; Bangsbogård
+title:  2O22 &#124; Bangsbogård
 permalink: /bangsbogaard/
 header_image: assets/images/Bangsbogaard_header.png
 classes: wide

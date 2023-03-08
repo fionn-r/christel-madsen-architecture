@@ -1,5 +1,5 @@
 ---
-title:  2022 &#124; Weaving
+title:  2O23 &#124; Weaving
 permalink: /weaving/
 header_image: assets/images/weaving/render-and-section.jpg
 classes: wide

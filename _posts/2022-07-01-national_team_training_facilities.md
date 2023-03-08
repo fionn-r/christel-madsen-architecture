@@ -1,5 +1,5 @@
 ---
-title:  "2022 &#124; Danish national football team training facilities"
+title:  "2O22 &#124; Danish national football team training facilities"
 permalink: /national-team-training-facilities/
 header_image: assets/images/national_training_facilities_header.png
 ---
