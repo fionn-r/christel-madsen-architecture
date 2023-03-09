@@ -10,6 +10,10 @@
     margin: 20px;
 }
 
+.cv-item-text {
+    font-size: $type-size-6;
+}
+
 
 @media (min-width: $large) {
     .about-cv-container {

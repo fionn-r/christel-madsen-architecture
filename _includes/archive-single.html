@@ -11,29 +11,27 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
-  <table id="entry_table" style="table-layout: fixed; width: 100%;">
-    <tr>
-      <td style="width: 50%;vertical-align: top;">
-        <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
-          <div  style="width: fit-content;">
-            <h2 class="archive__item-title no_toc" itemprop="headline">
-              <a href="{{ post.url | relative_url }}" rel="permalink" style="text-decoration: none;">{{ title }}</a>
-            </h2>
-            <hr
-              style="border-color: blue ;color:blue;background-color:blue; height: 1.5px;padding: 0px; margin: 5px 0px; ">
-          </div>
-          {% include page__meta.html type=include.type %}
-          {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |
-            strip_html | truncate: 160 }}</p>{% endif %}
-        </article>
-      </td>
-      <td style="width: 50%;">
-        <div class="split__entry split__entry__right">
-          <a href="{{ post.url | relative_url }}" rel="permalink">
-            <img src="{{ post.header_image }}" alt="{{ post.title }}" class="entry__image">
-          </a>
+  <div class="entry_container">
+    <div class="entry_item entry_text">
+      <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+        <div  style="width: fit-content;">
+          <h2 class="archive__item-title no_toc" itemprop="headline">
+            <a href="{{ post.url | relative_url }}" rel="permalink" style="text-decoration: none;">{{ title }}</a>
+          </h2>
+          <hr
+            style="border-color: blue ;color:blue;background-color:blue; height: 1.5px;padding: 0px; margin: 5px 0px; ">
         </div>
-      </td>
-    </tr>
-  </table>
+        {% include page__meta.html type=include.type %}
+        {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |
+          strip_html | truncate: 160 }}</p>{% endif %}
+      </article>
+    </div>
+    <div class="entry_item entry_image_wrapper">
+      <div class="split__entry split__entry__right" style="right: 0;">
+        <a href="{{ post.url | relative_url }}" rel="permalink">
+          <img src="{{ post.header_image }}" alt="{{ post.title }}" class="entry__image">
+        </a>
+      </div>
+    </div>
+  </div>
 </div>

@@ -465,3 +465,32 @@
 		display: inline-block;
 	}
 }
+
+.entry_container {
+  @include flexbox();
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 50px 0px;
+}
+
+.entry_item {
+  
+  margin: 0 1em;
+}
+
+.entry_text {
+  @include flex(1);
+  max-width: 400px;
+}
+
+.entry_image_wrapper {
+  @include flex(1);
+}
+
+.entry__image {
+  width: 100%;
+  max-width: 1200px;
+  height: auto;
+}
