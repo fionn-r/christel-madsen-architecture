@@ -14,8 +14,7 @@
     font-size: $type-size-6;
 }
 
-
-@media (min-width: $large) {
+@include breakpoint($large) {
     .about-cv-container {
         display: flex;
         flex-flow: row nowrap;
@@ -50,6 +49,7 @@
     
     .about-cv-contact-info {
         display: block;
+        bottom: 0;
     }
 }
 

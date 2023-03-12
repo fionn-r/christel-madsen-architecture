@@ -57,6 +57,11 @@ body {
     // max-width: 500px;
   }
 
+  .page-carousel {
+    height: 100%;
+    flex: 1.75 1 auto;
+  }
+
   .page__inner-wrap {
     float: left;
     margin-top: 1em;
@@ -97,6 +102,15 @@ body {
 .page__lead {
   font-family: $global-font-family;
   font-size: $type-size-3;
+}
+
+.header-underline {
+  border-color: blue;
+  color: blue;
+  background-color: blue;
+  height: 1.5px;
+  padding: 0px;
+  margin: 5px 0px;
 }
 
 .page__content {

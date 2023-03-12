@@ -97,7 +97,7 @@
   display: none;
 }
 
-@media (min-width: $large) {
+@include breakpoint($large) {
   .sidebar_fionn {
     display: block;
     position: sticky;

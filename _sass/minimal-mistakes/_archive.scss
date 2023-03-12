@@ -21,6 +21,7 @@
 .archive__item {
   position: relative;
   vertical-align: top;
+
   a {
     position: relative;
     z-index: 10;
@@ -52,6 +53,11 @@
   text-transform: uppercase;
   text-decoration: none;
   font-weight: normal;
+  width: fit-content;
+
+  a {
+    text-decoration: none;
+  }
 
   a[rel="permalink"]::before {
     content: '';
@@ -60,11 +66,13 @@
     top: 0;
     right: 0;
     bottom: 0;
+
   }
 
   a + a {
     opacity: 0.5;
   }
+
   margin-top: 0;
 }
 
@@ -77,15 +85,22 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
-  font-size: $type-size-6;
+  display: none;
+}
 
-  & + p {
-    text-indent: 0;
-  }
+@include breakpoint($medium) {
+  .archive__item-excerpt {
+    margin-top: 0;
+    font-size: $type-size-6;
+    display: block;
 
-  a {
-    position: relative;
+    & + p {
+      text-indent: 0;
+    }
+
+    a {
+      position: relative;
+    }
   }
 }
 
@@ -172,8 +187,10 @@
   }
 
   @include breakpoint($medium) {
-    margin-left: 0; /* override margin*/
-    margin-right: 0; /* override margin*/
+    margin-left: 0;
+    /* override margin*/
+    margin-right: 0;
+    /* override margin*/
     width: span(3 of 12);
 
     &:nth-child(2n + 1) {
@@ -446,7 +463,7 @@
    Wide Pages
    ========================================================================== */
 
-  .wide {
+.wide {
   .archive {
     @include breakpoint($large) {
       padding-right: 0;
@@ -461,32 +478,52 @@
 /* Place inside a single layout */
 
 .layout--single {
-	.feature__wrapper {
-		display: inline-block;
-	}
+  .feature__wrapper {
+    display: inline-block;
+  }
 }
 
 .entry_container {
   @include flexbox();
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin: 50px 0px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.entry_item {
-  
-  margin: 0 1em;
-}
-
-.entry_text {
+.entry_text_wrapper {
   @include flex(1);
-  max-width: 400px;
+  margin: 0.5em 1em 5em 1em;
+  order: 2;
 }
 
 .entry_image_wrapper {
   @include flex(1);
+  margin: 1em 1em;
+  order: 1;
+}
+
+@include breakpoint($medium) {
+  .entry_container {
+    @include flexbox();
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 50px 0px;
+  }
+
+  .entry_text_wrapper {
+    @include flex(1);
+    max-width: 400px;
+    margin: 0 1em;
+    order: 0; //reset back to default order
+  }
+
+  .entry_image_wrapper {
+    @include flex(1);
+    right: 0;
+    margin: 0 1em;
+    order: 0; //reset back to default order
+  }
 }
 
 .entry__image {
