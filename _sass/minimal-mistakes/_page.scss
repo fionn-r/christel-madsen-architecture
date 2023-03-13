@@ -45,7 +45,10 @@ body {
   }
 
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
+  @include breakpoint($large) {
+    flex-flow: row nowrap;
+  }
   justify-content: space-between;
   margin: 0 auto;
   // padding: 0 20px;
