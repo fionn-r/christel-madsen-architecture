@@ -494,6 +494,10 @@
   margin: 0.5em 1em 5em 1em;
   order: 2;
   text-align: center;
+  
+  @include breakpoint($medium) {
+    text-align: left;
+  }
 }
 
 .entry_image_wrapper {

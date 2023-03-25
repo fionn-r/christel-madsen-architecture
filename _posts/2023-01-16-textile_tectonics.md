@@ -1,20 +1,20 @@
 ---
-title:  2O23 &#124; Weaving
-permalink: /weaving/
-header_image: assets/images/weaving/render-and-section.jpg
+title:  2O23 &#124; Textile Tectonics
+permalink: /textile-tectonics/
+header_image: /assets/images/textile_tectonics/09_mock-up-photos-collected.jpg
 classes: wide
 carousels:
   - images: 
-    - image: /assets/images/weaving/construction-photos-collected.jpg
-    - image: /assets/images/weaving/from-straw-to-building-1.jpg
-    - image: /assets/images/weaving/from-straw-to-building-2.jpg
-    - image: /assets/images/weaving/mock-up-photos-collected.jpg
-    - image: /assets/images/weaving/Processing-straw.jpg
-    - image: /assets/images/weaving/render-and-section.jpg
-    - image: /assets/images/weaving/treament-photos-collected.jpg
-    - image: /assets/images/weaving/treatment-experiment-sheets.jpg
-    - image: /assets/images/weaving/veaving-experiment-sheets.jpg
-    - image: /assets/images/weaving/Veaving-photo.jpg
+    - image: /assets/images/textile_tectonics/01_from-straw-to-building_1.png
+    - image: /assets/images/textile_tectonics/02_from-straw-to-building-2.jpg
+    - image: /assets/images/textile_tectonics/03_Processing-straw.jpg
+    - image: /assets/images/textile_tectonics/04_Veaving-photo.jpg
+    - image: /assets/images/textile_tectonics/05_veaving-experiment-sheets.jpg
+    - image: /assets/images/textile_tectonics/06_treament-photos-collected.jpg
+    - image: /assets/images/textile_tectonics/07_treatment-experiment-sheets.jpg
+    - image: /assets/images/textile_tectonics/08_construction-photos-collected.jpg
+    - image: /assets/images/textile_tectonics/09_mock-up-photos-collected.jpg
+    - image: /assets/images/textile_tectonics/10_render-and-section.jpg
 ---
 
 In recent years, there has been a growing interest in sustainable and eco-friendly architecture. One way to achieve this is by using natural materials that are abundant and renewable. One such material is straw, which has been used for centuries in traditional building techniques such as thatching. However, straw has not been commonly used in modern building construction, and when it is used, it is often compressed and treated with chemicals to improve its fire resistance and durability.
