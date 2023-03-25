@@ -22,7 +22,7 @@
 body {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  @include flexbox();
   min-height: 100vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -44,7 +44,7 @@ body {
     width: calc(100%);
   }
 
-  display: flex;
+  @include flexbox();
   flex-flow: column nowrap;
   @include breakpoint($large) {
     flex-flow: row nowrap;
@@ -55,14 +55,14 @@ body {
   width: 100%;
 
   .page-item {
-    flex: 1 1 0;
+    @include flex(1 1 0);
     margin-right: 30px;
     // max-width: 500px;
   }
 
   .page-carousel {
     height: 100%;
-    flex: 1.75 1 auto;
+    @include flex(1.75 1 auto);
   }
 
   .page__inner-wrap {
@@ -435,7 +435,7 @@ body {
   a {
     display: -webkit-box;
     display: -ms-flexbox;
-    display: flex;
+    @include flexbox();
     padding: 0.25em 0;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;

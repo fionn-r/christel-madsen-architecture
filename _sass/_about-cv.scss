@@ -16,7 +16,7 @@
 
 @include breakpoint($large) {
     .about-cv-container {
-        display: flex;
+        @include flexbox();
         flex-flow: row nowrap;
         justify-content: space-between;
         // margin: 0 auto;
@@ -25,13 +25,13 @@
     }
 
     .about-cv-item {
-        flex: 1 1 0;
+        @include flex(1 1 0);
         // margin: 0 80px;
         max-width: 500px;
     }
 
     .about-cv-sidebar {
-        display: flex;
+        @include flexbox();
         flex-flow: column nowrap;
         justify-content: space-between;
         // margin: 0 auto;
@@ -42,7 +42,7 @@
     }
 
     .about-cv-sidebar-item {
-        flex: 1 1 0;
+        @include flex(1 1 0);
         // margin: 0 80px;
         // max-width: 450px;
     }

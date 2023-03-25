@@ -1,7 +1,7 @@
 ---
 title:  2O23 &#124; Textile Tectonics
 permalink: /textile-tectonics/
-header_image: /assets/images/textile_tectonics/09_mock-up-photos-collected.jpg
+header_image: /assets/images/textile_tectonics/textile_tectonics_banner.jpg
 classes: wide
 carousels:
   - images: 

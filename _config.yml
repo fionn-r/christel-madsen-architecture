@@ -15,72 +15,37 @@ subtitle: "Architect"
 name: "Christel Astrup Madsen"
 description: "Christel Madsen architecture porfolio"
 url: "https://christelmadsen.com/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-# baseurl                  : / # the subpath of your site, e.g. "/blog"
-repository: "fionn-r/christel-portfolio"
-teaser: # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo: # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title: # overrides the website title displayed in the masthead, use " " for no title
 
-search: # true, false (default)
-search_full_content: # true, false (default)
-search_provider: # lunr (default), algolia, google
-lunr:
-  search_within_pages: # true, false (default)
-algolia:
-  application_id: # YOUR_APPLICATION_ID
-  index_name: # YOUR_INDEX_NAME
-  search_only_api_key: # YOUR_SEARCH_ONLY_API_KEY
-  powered_by: # true (default), false
-google:
-  search_engine_id: # YOUR_SEARCH_ENGINE_ID
-  instant_search: # false (default), true
-# SEO Related
-google_site_verification:
-bing_site_verification:
-naver_site_verification:
-yandex_site_verification:
-baidu_site_verification:
-# Site Footer
-footer:
-  links:
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url:
+repository: "fionn-r/christel-portfolio"
 
 # Reading Files
 include:
-  - .htaccess
-  - _pages
+    - .htaccess
+    - _pages
 exclude:
-  - "*.sublime-project"
-  - "*.sublime-workspace"
-  - vendor
-  - .asset-cache
-  - .bundle
-  - .jekyll-assets-cache
-  - .sass-cache
-  - assets/js/plugins
-  - assets/js/_main.js
-  - assets/js/vendor
-  - Capfile
-  - CHANGELOG
-  - config
-  - Gemfile
-  - Gruntfile.js
-  - gulpfile.js
-  - LICENSE
-  - log
-  - node_modules
-  - package.json
-  - package-lock.json
-  - Rakefile
-  - README
-  - tmp
-  - /docs # ignore Minimal Mistakes /docs
-  - /test # ignore Minimal Mistakes /test
+    - "*.sublime-project"
+    - "*.sublime-workspace"
+    - vendor
+    - .asset-cache
+    - .bundle
+    - .jekyll-assets-cache
+    - .sass-cache
+    - assets/js/plugins
+    - assets/js/_main.js
+    - assets/js/vendor
+    - config
+    - Gemfile
+    - Gruntfile.js
+    - gulpfile.js
+    - LICENSE
+    - log
+    - node_modules
+    - package.json
+    - package-lock.json
+    - Rakefile
 keep_files:
-  - .git
-  - .svn
+    - .git
+    - .svn
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -91,21 +56,22 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
+# Markdown Processors
 kramdown:
-  input: GFM
-  hard_wrap: false
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  smart_quotes: lsquo,rsquo,ldquo,rdquo
-  enable_coderay: false
+    auto_ids: true
+    entity_output: as_char
+    toc_levels: [1, 2, 3, 4, 5, 6]
+    smart_quotes: lsquo,rsquo,ldquo,rdquo
+    input: GFM
+    hard_wrap: false
+    footnote_nr: 1
+    show_warnings: false
 
 # Sass/SCSS
 sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+    load_paths:
+        - _sass
+    style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Outputting
 permalink: /:categories/:title/
@@ -113,24 +79,21 @@ paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
-atom_feed:
-  hide: true
-
 # Plugins (previously gems:)
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jekyll-include-cache
 
 # mimic GitHub Pages with --safe
 whitelist:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jekyll-include-cache
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-gist
+    - jekyll-feed
+    - jekyll-include-cache
 
 # Archives
 #  Type
@@ -143,42 +106,31 @@ whitelist:
 #  - <base_path>/categories/my-awesome-category/index.html ~> path: /categories/
 #  - <base_path>/my-awesome-category/index.html ~> path: /
 category_archive:
-  type: liquid
-  path: /categories/
+    type: liquid
+    path: /categories/
 tag_archive:
-  type: liquid
-  path: /tags/
-# https://github.com/jekyll/jekyll-archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#     - tags
-#   layouts:
-#     category: archive-taxonomy
-#     tag: archive-taxonomy
-#   permalinks:
-#     category: /categories/:name/
-#     tag: /tags/:name/
+    type: liquid
+    path: /tags/
 
 # HTML Compression
 # - https://jch.penibelst.de/
 compress_html:
-  clippings: all
-  ignore:
-    envs: development
+    clippings: all
+    ignore:
+        envs: development
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: false
-      comments: false
-      share: false
-      related: false
-      show_date: false
-      excerpt_separator: <!--more-->
+    # _posts
+    - scope:
+          path: ""
+          type: posts
+      values:
+          layout: single
+          author_profile: true
+          read_time: false
+          comments: false
+          share: false
+          related: false
+          show_date: false
+          excerpt_separator: <!--more-->
