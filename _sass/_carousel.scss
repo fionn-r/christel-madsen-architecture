@@ -1,0 +1,33 @@
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 150px;
+    width: 300px;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+    opacity: 0;
+}
+
+.carousel-control-prev-icon:hover,
+.carousel-control-next-icon:hover {
+    opacity: 0.9;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 55px;
+    color: blue;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 55px;
+    color: blue;
+}
+
+.carousel-indicators {
+    button {
+        background-color: blue;
+        opacity: 0.5;
+    }
+}

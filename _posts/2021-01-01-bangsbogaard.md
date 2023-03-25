@@ -22,11 +22,6 @@ carousels:
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web15.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web16.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web17.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web18.jpg
-    - image: /assets/images/bangsbogaard/BBG_opstalter_220112_samlet-01.png
-    - image: /assets/images/bangsbogaard/BBG_opstalter_220112_samlet-02.png
-    - image: /assets/images/bangsbogaard/BBG_opstalter_220112_samlet-03.png
-    - image: /assets/images/bangsbogaard/BBG_opstalter_220112_samlet-04.png
 ---
 
 Id maximus nitata non ne dolo blaborr oribea vit molupta tiorroratus core, invendusda sit aut vel modit enducip sapiciis aut venis quae labori sectecus, odio inusandit im estrupt assitatibus dipsum ex eatur arciliquas erate cus dollenia posaect atiist excesciissit volo ium aut evellandisto dolor

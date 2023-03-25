@@ -1,7 +1,7 @@
 ---
 title:  2O23 &#124; Dark sky observatory
 permalink: /dark-sky-observatory/
-header_image: /assets/images/program/Program_web.jpg
+header_image: /assets/images/program/Program_web_forside.jpg
 classes: wide
 carousels:
   - images: 

@@ -5,8 +5,7 @@ layout: default
 <div id="main" role="main">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <div class="page-item page-carousel" id="image_carousel"> {% include carousel.html
-      height="500" unit="px" %}
+    <div class="page-item page-carousel" id="image_carousel"> {% include carousel.html %}
     </div>
     <div class="page-item">
       <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
@@ -26,5 +25,5 @@ layout: default
       </div>
     </div>
   </article>
-    {% include author-profile.html %}
+  {% include author-profile.html %}
 </div>

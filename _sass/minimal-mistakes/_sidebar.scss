@@ -76,7 +76,8 @@
   font-size: $type-size-5;
   text-decoration: none;
   line-height: 1;
-
+  width: fit-content;
+  
   &:hover {
     text-decoration: underline;
   }
