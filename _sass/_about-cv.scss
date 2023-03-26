@@ -1,21 +1,7 @@
 .about-cv-container {
     padding: 20px;
-}
 
-.about-cv-contact-info {
-    display: none;
-}
-
-.about-cv-item {
-    margin: 20px;
-}
-
-.cv-item-text {
-    font-size: $type-size-6;
-}
-
-@include breakpoint($large) {
-    .about-cv-container {
+    @include breakpoint($large) {
         @include flexbox();
         flex-flow: row nowrap;
         justify-content: space-between;
@@ -23,34 +9,63 @@
         padding: 0 20px;
         width: 100%;
     }
+}
 
-    .about-cv-item {
+.about-cv-contact-info {
+    display: none;
+
+    @include breakpoint($large) {
+        display: block;
+        bottom: 0;
+        margin-top: 50px;
+    }
+}
+
+.about-cv-item {
+    margin: 20px;
+    margin-top: 0;
+
+    @include breakpoint($large) {
         @include flex(1 1 0);
         // margin: 0 80px;
         max-width: 500px;
-    }
+        height: 100%;
 
-    .about-cv-sidebar {
+        h2 {
+            margin-top: 0;
+        }
+    }
+}
+
+.cv-item-text {
+    font-size: $type-size-6;
+}
+
+.about-cv-sidebar {
+    @include breakpoint($large) {
         @include flexbox();
         flex-flow: column nowrap;
         justify-content: space-between;
-        // margin: 0 auto;
-        padding: 0 20px;
-        // width: 100%;
-        max-width: 350px;
-        height: 100vh;
+        // margin: 0 20px 50px 20px;
+        max-width: 300px;
+        font-size: 14px;
+        text-align: justify;
+        
+        margin-right: 120px;
     }
+}
 
-    .about-cv-sidebar-item {
+.about-cv-sidebar-item {
+    @include breakpoint($large) {
         @include flex(1 1 0);
-        // margin: 0 80px;
-        // max-width: 450px;
     }
+}
 
-    .about-cv-contact-info {
-        display: block;
-        bottom: 0;
-    }
+.about-cv-profile-picture {
+    display: block;
+    margin: 0 auto 25px 0px;
+    width: 100%;
+    max-width: 300px;
 }
 
 .cv-table {

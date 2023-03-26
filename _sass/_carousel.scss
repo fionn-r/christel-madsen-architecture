@@ -5,7 +5,10 @@
     background-size: 100%, 100%;
     border-radius: 50%;
     background-image: none;
-    opacity: 0;
+
+    @include breakpoint($medium) {
+        opacity: 0;
+    }
 }
 
 .carousel-control-prev-icon:hover,
@@ -15,13 +18,19 @@
 
 .carousel-control-next-icon:after {
     content: '>';
-    font-size: 55px;
+    font-size: 25px;
+    @include breakpoint($medium) {
+        font-size: 55px;
+    }
     color: blue;
 }
 
 .carousel-control-prev-icon:after {
     content: '<';
-    font-size: 55px;
+    font-size: 25px;
+    @include breakpoint($medium) {
+        font-size: 55px;
+    }
     color: blue;
 }
 
@@ -29,5 +38,14 @@
     button {
         background-color: blue;
         opacity: 0.5;
+    }
+}
+
+.carousel-item {
+    img {
+        @include breakpoint($medium) {
+            // height: calc(100vh - #{$nav-height} - 10em);
+            // width: auto;
+        }
     }
 }
