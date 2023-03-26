@@ -3,7 +3,7 @@
 {% assign counter = 1 %}
 
 <script>
-    const carousel{{ carousel_id }} = new bootstrap.Carousel('#picture_carousel{{ carousel_id }}', { keyboard: true, interval: false })
+    const carousel{{ carousel_id }} = new bootstrap.Carousel('#picture_carousel{{ carousel_id }}', { keyboard: true, interval: 1000 })
 </script>
 
 <div id="picture_carousel{{ carousel_id }}" class="carousel slide carousel-fade" data-bs-ride="true">

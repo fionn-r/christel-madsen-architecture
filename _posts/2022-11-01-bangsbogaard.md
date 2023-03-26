@@ -1,7 +1,7 @@
 ---
 title:  2O21 &#124; Bangsbogård
 permalink: /bangsbogaard/
-header_image: assets/images/bangsbogaard/header.png
+header_image: /assets/images/bangsbogaard/bangsbogaard_til_web12.jpg
 classes: wide
 order: 2
 carousels:
