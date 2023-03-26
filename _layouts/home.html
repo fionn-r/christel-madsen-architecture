@@ -3,8 +3,7 @@ layout: archive
 ---
 
 {{ content }}
-
-{% assign posts = site.posts %}
+{% assign posts = site.posts | sort: "order" %}
 
 {% assign entries_layout = page.entries_layout | default: 'list' %}
 <div class="entries-{{ entries_layout }}">
