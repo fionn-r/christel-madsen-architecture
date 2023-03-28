@@ -1,37 +1,61 @@
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    height: 150px;
-    width: 300px;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    background-image: none;
+.carousel-control-next,
+.carousel-control-prev {
+    width: 40%;
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        height: 150px;
+        width: 300px;
+        background-size: 100%, 100%;
+        border-radius: 50%;
+        background-image: none;
+    }
+
+    .carousel-control-next-icon {
+        text-align: right;
+    }
+
+    .carousel-control-next-icon::after {
+        content: '>';
+        font-size: 25px;
+
+        @include breakpoint($medium) {
+            font-size: 55px;
+        }
+
+        color: blue;
+    }
+
+    .carousel-control-prev-icon {
+        text-align: left;
+    }
+
+    .carousel-control-prev-icon::after {
+        content: '<';
+        font-size: 25px;
+
+        @include breakpoint($medium) {
+            font-size: 55px;
+        }
+
+        color: blue;
+    }
+}
+
+// Opacity is controlled for the whole next/prev button, not just the icon so that it appears on hover for a greater area
+.carousel-control-next,
+.carousel-control-prev {
+    opacity: 0.5;
+    transition: all 0.4s ease-in-out;
 
     @include breakpoint($medium) {
         opacity: 0;
     }
 }
 
-.carousel-control-prev-icon:hover,
-.carousel-control-next-icon:hover {
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
     opacity: 0.9;
-}
-
-.carousel-control-next-icon:after {
-    content: '>';
-    font-size: 25px;
-    @include breakpoint($medium) {
-        font-size: 55px;
-    }
-    color: blue;
-}
-
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 25px;
-    @include breakpoint($medium) {
-        font-size: 55px;
-    }
-    color: blue;
 }
 
 .carousel-indicators {

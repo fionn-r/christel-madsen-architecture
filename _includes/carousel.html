@@ -1,5 +1,5 @@
 {% assign number = include.number | minus: 1 %}
-{% assign carousel_id = include.number | plus: 1 %}
+{% assign carousel_id = include.number | plus: 1 %} <!-- If include.number is not defined, meant that number = -1 which then makes variable naming funky -->
 {% assign counter = 1 %}
 
 <script>
