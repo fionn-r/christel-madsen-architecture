@@ -25,7 +25,7 @@ carousels:
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web17.jpg
 ---
 
-Læsø is a small Danish island that is known for its long history of producing salt and its unique traditional seaweed thatched buildings. In recent years the island has experienced a significant decline in population due to aging and young people moving away. The settlements are scattered across the island, with many former farms standing empty or used as holiday homes for a small portion of the year.
+Læsø is a small Danish island that is known for its long history of producing salt and its unique traditional seaweed thatched buildings. In recent years the island has experienced a significant decline in population due to ageing and young people moving away. The settlements are scattered across the island, with many former farms standing empty or used as holiday homes for a small portion of the year.
 
 <!--more-->
 

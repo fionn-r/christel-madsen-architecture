@@ -2,11 +2,7 @@
 {% assign carousel_id = include.number | plus: 1 %} <!-- If include.number is not defined, meant that number = -1 which then makes variable naming funky -->
 {% assign counter = 1 %}
 
-<script>
-    const carousel{{ carousel_id }} = new bootstrap.Carousel('#picture_carousel{{ carousel_id }}', { keyboard: true, interval: 1000 })
-</script>
-
-<div id="picture_carousel{{ carousel_id }}" class="carousel slide carousel-fade" data-bs-ride="true">
+<div id="picture_carousel{{ carousel_id }}" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <!-- <div class="carousel-indicators">
         <button type="button" data-bs-target="#picture_carousel{{ carousel_id }}" data-bs-slide-to="0" class="active" aria-current="true"
             aria-label="Slide 1"></button>

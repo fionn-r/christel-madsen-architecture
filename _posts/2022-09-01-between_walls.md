@@ -28,12 +28,12 @@ carousels:
         - image: "/assets/images/between_walls/between_walls20.jpg"
 ---
 
-The triangular site between Sigurdsgade, Titangade and Vermundsgade in Copenhagen NV represents a special diversity in the city in terms of function, volumes and people. A place we wanted to gather in a diverse meeting between the walls that today acts as barriers, cutting off the different programs from each other.
+The triangular site between Sigurdsgade, Titangade and Vermundsgade in Copenhagen NV represents a special diversity in the city, across functions, spaces and people. In this project, we redeveloped the space to bring together the different elements and characteristics of the area while focusing on redefining the walls that had previously been dividing.
 
 <!--more-->
 
-We have worked with the meeting between the defined and the undefined programs and buildings. In the study of the human encounter in an intimate urban space, we have examined the wall as a shaping element.
+We have played with the meeting between the defined and the undefined programs and buildings and in the study of human encounter in an intimate urban space, we have examined the wall as a shaping element.
 
-The triangular site exudes a special atmosphere, which we wanted to preserve and strengthen with this project. By connecting and activating the area and its unrealized potentials, and creating coexistence between businesses, associations, and the city, we have given the place a voice in the city.
+The site has a special atmosphere, which we wanted to preserve and strengthen with this project. By connecting and activating the area and its unrealised potentials, and creating coexistence between businesses, associations, and the city, we have given the place a voice in the city.
 
-This project was made together with  Sheila Koyo Møller and Sofie Hypholt during our 2nd semester of masters.
+This project was made together with Sheila Koyo Møller and Sofie Hypholt during our 2nd semester of Masters.
