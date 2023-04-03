@@ -4,6 +4,7 @@ permalink: /bangsbogaard/
 header_image: /assets/images/bangsbogaard/bangsbogaard_til_web12.jpg
 classes: wide
 order: 1
+blurb: The project aims to examine the traditional societal structure of Læsø, where farm communities formed to share the sparse resources and work together. Transforming old abandoned farms into new and modern communities to reverse the declining population…
 description: 7th semester project
 carousels:
   - images: 

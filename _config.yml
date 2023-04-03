@@ -51,7 +51,6 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
 incremental: false
 
 # Markdown Processors
@@ -131,4 +130,3 @@ defaults:
           share: false
           related: false
           show_date: false
-          excerpt_separator: <!--more-->

@@ -20,8 +20,8 @@
       <p class="archive__item-excerpt">
         {{ post.description | markdownify | strip_html }}
       </p>
-      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |
-        strip_html | truncate: 160 }}</p>{% endif %}
+      {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.blurb | markdownify |
+        strip_html }}</p>{% endif %}
     </article>
     <div class="entry_image_wrapper">
       <a href="{{ post.url | relative_url }}" rel="permalink">

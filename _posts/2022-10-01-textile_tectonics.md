@@ -3,6 +3,7 @@ title:  2O23 &#124; Textile Tectonics
 permalink: /textile-tectonics/
 header_image: /assets/images/textile_tectonics/textile_tectonics_banner.jpg
 description: 9th semester 6 week project
+blurb: This project examines the potential of the residual product straw as facade cladding, focusing on refining a waste product through artisanal processing…
 classes: wide
 order: 4
 carousels:

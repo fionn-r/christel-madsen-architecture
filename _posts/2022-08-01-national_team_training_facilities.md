@@ -4,6 +4,7 @@ permalink: /national-team-training-facilities/
 header_image: /assets/images/dbu/08_dbu_web.jpg
 classes: wide
 description: 8th semester six week project
+blurb: This proposal was developed for the Danish Football Association, as the male national team needed new training facilities. The brief was to create a large open space for functional training while using primarily sustainable building materials.
 order: 2
 carousels:
   - images: 

@@ -3,6 +3,7 @@ title:  2O23 &#124; Dark sky observatory
 permalink: /dark-sky-observatory/
 header_image: /assets/images/program/Program_web_forside.jpg
 description: Masters thesis (current project)
+blurb: The project aims to create a collective place that communicates the importance of darkness and contributes to the preservation of our universal cultural heritage of the starry sky…
 classes: wide
 order: 3
 carousels:

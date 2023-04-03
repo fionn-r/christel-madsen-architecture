@@ -3,6 +3,7 @@ title:  2O22 &#124; Between walls
 permalink: /between-walls/
 header_image: '/assets/images/between_walls/between_walls12.jpg'
 description: 8th semester project
+blurb: Redeveloping a former industrial site by connecting and activating the area and its unrealised potentials, and creating coexistence between businesses, associations, and the city…
 classes: wide
 order: 5
 carousels:
