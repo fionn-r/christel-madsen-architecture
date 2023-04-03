@@ -17,6 +17,9 @@
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
         <hr class="header-underline">
       </h2>
+      <p class="archive__item-excerpt">
+        {{ post.description | markdownify | strip_html }}
+      </p>
       {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify |
         strip_html | truncate: 160 }}</p>{% endif %}
     </article>

@@ -14,13 +14,12 @@
     <div class="carousel-inner">
         <!-- The first item needs to also have the "active" style applied which is why it is split out -->
         <div class="carousel-item active">
-            <img src="{{ page.carousels[number].images[0].image }}" class="d-block w-100"
-                alt="{{ page.carousels[number].images[0].image }}">
+            <img src="{{ page.carousels[number].images[0].image }}" class="d-block w-100" alt="{{ page.carousels[number].images[0].alt }}">
         </div>
         <!-- We then offset the array to not include the first one this time -->
         {% for item in page.carousels[number].images offset:1 %}
         <div class="carousel-item">
-            <img src="{{ item.image }}" class="d-block w-100" alt="...">
+            <img src="{{ item.image }}" class="d-block w-100" alt="{{ item.alt }}">
         </div>
         {% endfor %}
     </div>

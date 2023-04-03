@@ -2,8 +2,9 @@
 title:  2O23 &#124; Dark sky observatory
 permalink: /dark-sky-observatory/
 header_image: /assets/images/program/Program_web_forside.jpg
+description: Masters thesis (current project)
 classes: wide
-order: 1
+order: 3
 carousels:
   - images: 
     - image: /assets/images/program/Program_web.jpg

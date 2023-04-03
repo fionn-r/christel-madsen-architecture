@@ -1,7 +1,8 @@
 ---
 title:  "2O22 &#124; Siza and critical regionalism"
 permalink: /siza-critical-regionalism/
-header_image: /assets/images/siza_and_critical_regionalism_web/siza_and_critical_regionalism_web0.jpg
+header_image: /assets/images/siza_and_critical_regionalism_web/siza_and_critical_regionalism_web10.jpg
+description: 9th semester written assignment
 classes: wide
 order: 6
 carousels:

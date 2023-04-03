@@ -1,9 +1,10 @@
 ---
 title:  "2O22 &#124; Training facilities for national team"
 permalink: /national-team-training-facilities/
-header_image: /assets/images/dbu/01_dbu.jpg
+header_image: /assets/images/dbu/08_dbu_web.jpg
 classes: wide
-order: 3
+description: 8th semester six week project
+order: 2
 carousels:
   - images: 
      - image: /assets/images/dbu/01_dbu.jpg
@@ -15,7 +16,6 @@ carousels:
      - image: /assets/images/dbu/07_dbu_web.jpg
      - image: /assets/images/dbu/08_dbu_web.jpg
      - image: /assets/images/dbu/09_dbu_web.jpg
-     - image: /assets/images/dbu/10_dbu_web.jpg
 ---
 
 This proposal was developed for the Danish Football Association, as the male national team needed new training facilities. The brief was to create a large open space for functional training with storage facilities and direct access to the field while using primarily sustainable building materials.

@@ -2,6 +2,7 @@
 title:  2O22 &#124; Between walls
 permalink: /between-walls/
 header_image: '/assets/images/between_walls/between_walls12.jpg'
+description: 8th semester project
 classes: wide
 order: 5
 carousels:

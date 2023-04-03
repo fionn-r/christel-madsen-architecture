@@ -2,6 +2,7 @@
 title:  2O23 &#124; Textile Tectonics
 permalink: /textile-tectonics/
 header_image: /assets/images/textile_tectonics/textile_tectonics_banner.jpg
+description: 9th semester 6 week project
 classes: wide
 order: 4
 carousels:
