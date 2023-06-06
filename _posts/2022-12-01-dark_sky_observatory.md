@@ -1,45 +1,33 @@
 ---
 title:  2O23 &#124; Dark sky observatory
 permalink: /dark-sky-observatory/
-header_image: /assets/images/program/Program_web_forside.jpg
-description: Masters thesis (current project)
+header_image: /assets/images/Afgang_web_low/afgang_front_with_grey.jpg
+description: Masters thesis
 blurb: The project aims to create a collective place that communicates the importance of darkness and contributes to the preservation of our universal cultural heritage of the starry sky…
 classes: wide
-order: 3
+order: 1
 carousels:
   - images: 
-    - image: /assets/images/program/Program_web.jpg
-    - image: /assets/images/program/Program_web2.jpg
-    - image: /assets/images/program/Program_web3.jpg
-    - image: /assets/images/program/Program_web4.jpg
-    - image: /assets/images/program/Program_web5.jpg
-    - image: /assets/images/program/Program_web6.jpg
-    - image: /assets/images/program/Program_web7.jpg
-    - image: /assets/images/program/Program_web8.jpg
-    - image: /assets/images/program/Program_web9.jpg
-    - image: /assets/images/program/Program_web10.jpg
-    - image: /assets/images/program/Program_web11.jpg
-    - image: /assets/images/program/Program_web12.jpg
-    - image: /assets/images/program/Program_web13.jpg
-    - image: /assets/images/program/Program_web14.jpg
-    - image: /assets/images/program/Program_web15.jpg
-    - image: /assets/images/program/Program_web16.jpg
-    - image: /assets/images/program/Program_web17.jpg
-    - image: /assets/images/program/Program_web18.jpg
-    - image: /assets/images/program/Program_web19.jpg
-    - image: /assets/images/program/Program_web20.jpg
-    - image: /assets/images/program/Program_web21.jpg
-    - image: /assets/images/program/Program_web22.jpg
-    - image: /assets/images/program/Program_web23.jpg
-    - image: /assets/images/program/Program_web24.jpg
-    - image: /assets/images/program/Program_web25.jpg
-    - image: /assets/images/program/Program_web26.jpg
-    - image: /assets/images/program/Program_web27.jpg
-    - image: /assets/images/program/Program_web28.jpg
-    - image: /assets/images/program/Program_web29.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low2.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low3.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low4.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low5.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low6.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low7.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low8.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low9.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low10.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low11.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low12.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low13.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low14.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low15.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low16.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low17.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low18.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low19.jpg
 ---
-
-IN PROGRESS
 
 Astronomy is one of the oldest natural sciences, developed by early civilizations around the world. Since humans looked up at the sky and observed the stars, there has been established a relationship of fascination and wonder. Even without precision instruments or a basic understanding of the physical laws that govern the universe, early civilizations used stars to navigate, record the passage of time, plan rituals, and sow crops, all based on simple observations of the night sky.
 
