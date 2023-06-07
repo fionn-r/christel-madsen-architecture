@@ -29,7 +29,7 @@ carousels:
     - image: /assets/images/Afgang_web_low/Afgang_web_low19.jpg
 ---
 
-Astronomy is one of the oldest natural sciences, developed by early civilizations around the world. Since humans has looked up at the sky and observed the stars, there has been established a relationship of fascination and wonder. Even without precision instruments or a basic understanding of the physical laws that govern the universe, early civilizations used stars to navigate, record the passage of time, plan rituals, and sow crops, all based on simple observations of the starry night sky.
+Astronomy is one of the oldest natural sciences, developed by early civilisations around the world. Since humans has looked up at the sky and observed the stars, there has been established a relationship of fascination and wonder. Even without precision instruments or a basic understanding of the physical laws that govern the universe, early civilisations used stars to navigate, record the passage of time, plan rituals, and sow crops, all based on simple observations of the starry night sky.
 
 <!--more-->
 
