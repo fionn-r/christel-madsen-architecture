@@ -10,23 +10,24 @@ carousels:
   - images: 
     - image: /assets/images/Afgang_web_low/Afgang_web_low.jpg
     - image: /assets/images/Afgang_web_low/Afgang_web_low2.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low3.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low4.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low5.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low6.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low7.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low8.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low9.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low10.jpg
     - image: /assets/images/Afgang_web_low/Afgang_web_low11.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low12.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low13.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low14.jpg
-    - image: /assets/images/Afgang_web_low/Afgang_web_low15.jpg
     - image: /assets/images/Afgang_web_low/Afgang_web_low16.jpg
     - image: /assets/images/Afgang_web_low/Afgang_web_low17.jpg
     - image: /assets/images/Afgang_web_low/Afgang_web_low18.jpg
     - image: /assets/images/Afgang_web_low/Afgang_web_low19.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low12.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low14.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low13.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low2.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low3.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low4.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low6.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low7.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low8.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low5.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low9.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low10.jpg
+    - image: /assets/images/Afgang_web_low/Afgang_web_low15.jpg
 ---
 
 Astronomy is one of the oldest natural sciences, developed by early civilisations around the world. Since humans has looked up at the sky and observed the stars, there has been established a relationship of fascination and wonder. Even without precision instruments or a basic understanding of the physical laws that govern the universe, early civilisations used stars to navigate, record the passage of time, plan rituals, and sow crops, all based on simple observations of the starry night sky.

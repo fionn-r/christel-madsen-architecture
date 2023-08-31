@@ -8,15 +8,6 @@ blurb: The project aims to examine the traditional societal structure of Læsø,
 description: 7th semester project
 carousels:
   - images: 
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web10.jpg
-      alt: Picture showing how the house opens
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web11.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web12.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web13.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web14.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web15.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web16.jpg
-    - image: /assets/images/bangsbogaard/bangsbogaard_til_web17.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web2.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web3.jpg
@@ -26,6 +17,15 @@ carousels:
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web7.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web8.jpg
     - image: /assets/images/bangsbogaard/bangsbogaard_til_web9.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web10.jpg
+      alt: Picture showing how the house opens
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web11.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web12.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web13.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web14.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web15.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web16.jpg
+    - image: /assets/images/bangsbogaard/bangsbogaard_til_web17.jpg
 ---
 
 Læsø is a small Danish island that is known for its long history of producing salt and its unique traditional seaweed thatched buildings. In recent years the island has experienced a significant decline in population due to ageing and young people moving away. The settlements are scattered across the island, with many former farms standing empty or used as holiday homes for a small portion of the year.
